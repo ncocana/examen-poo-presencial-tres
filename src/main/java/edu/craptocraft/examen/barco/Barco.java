@@ -12,7 +12,7 @@ public abstract class Barco {
     private String nombre = "";
     private float size = 0;
 
-    public Barco(String matricula, String nombre, float size) {
+    protected Barco(String matricula, String nombre, float size) {
         this.matricula = matricula;
         this.nombre = nombre;
         this.size = size;
@@ -56,7 +56,7 @@ public abstract class Barco {
     }
 
     public void cargarBarcosEntrantes(List<Barco> barcosEntrantes) {
-        
+
     }
 
 }
