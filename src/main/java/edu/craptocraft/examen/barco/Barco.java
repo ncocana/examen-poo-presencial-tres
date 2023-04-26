@@ -47,12 +47,12 @@ public abstract class Barco {
         return maxSize.map(Barco::getMatricula).orElse(null);
     }
 
-    public boolean encajaTipo(Pantalan pantalan) {
-        return pantalan instanceof Pantalan;
+    public boolean encajaTipo(Pantalan pantalan, String tipo) {
+        return pantalan.getTipo().equals(tipo);
     }
 
     public float encajaSize(Amarre amarre) {
-        return amarre - this.getSize();
+        return amarre.getSize() - this.getSize();
     }
 
     public void cargarBarcosEntrantes(List<Barco> barcosEntrantes) {
