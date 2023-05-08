@@ -1,7 +1,5 @@
 package edu.craptocraft.examen.barco;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
@@ -22,7 +20,7 @@ public abstract class Barco {
         return this.matricula;
     }
 
-    private void setMatricula(String newMatricula) {
+    void setMatricula(String newMatricula) {
         this.matricula = newMatricula;
     }
 
@@ -38,7 +36,7 @@ public abstract class Barco {
         return this.size;
     }
 
-    private void setSize(float newSize) {
+    void setSize(float newSize) {
         this.size = newSize;
     }
 
@@ -55,8 +53,8 @@ public abstract class Barco {
         return amarre.getSize() - this.getSize();
     }
 
-    public void cargarBarcosEntrantes(List<Barco> barcosEntrantes) {
+    // public void cargarBarcosEntrantes(List<Barco> barcosEntrantes) {
 
-    }
+    // }
 
 }
