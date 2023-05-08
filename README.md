@@ -1,5 +1,17 @@
 # Examen POO presencial 3 - Barcos
 
+**Table de contenidos**
+
+- [Examen POO presencial 3 - Barcos](#examen-poo-presencial-3---barcos)
+  - [Introducción](#introducción)
+  - [Instrucciones](#instrucciones)
+  - [Diagrama UML](#diagrama-uml)
+  - [Salida de la aplicación](#salida-de-la-aplicación)
+
+## Introducción
+
+Este es un examen en Java de 2023 realizado por la clase de DAW (Presencial) de Programación en CIFP Francesc de Borja Moll. Los alumnos realizaron el examen con papel y lapiz, pero nuestro profesor nos propuso a nosotros (clase de DAW Intensivo) el reto de hacer el examen directamente con el ordenador.
+
 ## Instrucciones
 
 Desde Autoridad Portuaria se nos solicita que desarrollemos una aplicación que les permita 
@@ -46,3 +58,12 @@ respectivos métodos:
 - cargarBarcosEntrantes
 - buscarAmarre
 - verAmarre
+
+## Diagrama UML
+
+![Diagrama UML](docs/diagram_uml.png)
+
+## Salida de la aplicación
+
+![Output 1](./docs/output1.png)
+![Output 1](./docs/output2.png)
